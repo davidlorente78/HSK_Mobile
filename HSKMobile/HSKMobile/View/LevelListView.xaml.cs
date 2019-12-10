@@ -17,7 +17,8 @@ namespace HSKMobile.View
 		LevelListViewModel viewModel;
 		public LevelListView(int i)
 		{
-			InitializeComponent();			
+			InitializeComponent();
+			//TODO Prism
 			viewModel = new LevelListViewModel(i);
 			BindingContext = viewModel;			
 		}
@@ -28,6 +29,8 @@ namespace HSKMobile.View
 				return;
 
 			await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
+
+			string action = await DisplayActionSheet("ActionSheet: Send to?", "Cancel", null, "Email", "Twitter", "Facebook");
 
 			//Deselect Item
 			((ListView)sender).SelectedItem = null;

@@ -29,8 +29,12 @@
 			<Button
 			  Text="HSK Level 6"
 			  Clicked="HSKLevel6_Clicked" />
-			
-			
+
+			<Button
+			  Text="Dictionary Search"
+			  Clicked="DictionarySearch_Clicked" />
+
+
 		</StackLayout>
     </ContentPage.Content>
 </ContentPage>

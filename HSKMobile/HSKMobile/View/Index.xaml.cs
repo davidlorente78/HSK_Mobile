@@ -44,7 +44,10 @@ namespace HSKMobile.View
 			Navigation.PushAsync(new LevelListView(6));
 		}
 
-
+		void DictionarySearch_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new DictionarySearch());
+		}
 
 
 

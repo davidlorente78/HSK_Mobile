@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using HSK;
-using HSKMobile.Model;
+﻿using HSK;
 
 namespace HSKMobile.ViewModel
 {

@@ -1,10 +1,6 @@
 ﻿using DomainServices;
 using HSK;
-using HSKMobile.Model;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace HSKMobile.ViewModel
 {
@@ -17,7 +13,7 @@ namespace HSKMobile.ViewModel
 			DALReaders.Reader_HSK reader_HSK = new DALReaders.Reader_HSK();
 			reader_HSK.Level = level;
 			ListService listservice = new ListService(reader_HSK);
-			System.Collections.ArrayList words = listservice.GetAllWords(1);
+			System.Collections.ArrayList words = listservice.GetAllWords(level);
 						
 			foreach (HSK.Word_HSK w in words)
 			{
