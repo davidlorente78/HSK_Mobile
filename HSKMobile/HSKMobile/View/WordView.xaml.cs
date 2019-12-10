@@ -1,4 +1,5 @@
-﻿using HSKMobile.Model;
+﻿using HSK;
+using HSKMobile.Model;
 using HSKMobile.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -15,13 +16,13 @@ namespace HSKMobile.View
 	public partial class WordView : ContentPage
 	{
 		WordViewModel viewModel;
-		Word word;
+		Word_HSK word;
 
 		//http://jesseliberty.com/2017/07/06/learning-xamarin-forms-part-2-mvvm/
 		public WordView()
 		{
 			InitializeComponent();
-			word = new Word();
+			word = new Word_HSK();
 			word.Character = "好";
 
 			viewModel = new WordViewModel(word);

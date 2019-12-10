@@ -12,8 +12,23 @@
                 HorizontalOptions="Center" />
 
 			<Button
-			  Text="Go to detail page"
-			  Clicked="Handle_Clicked" />
+			  Text="HSK Level 1"
+			  Clicked="HSKLevel1_Clicked" />
+			<Button
+			  Text="HSK Level 2"
+			  Clicked="HSKLevel2_Clicked" />
+			<Button
+			  Text="HSK Level 3"
+			  Clicked="HSKLevel3_Clicked" />
+			<Button
+			  Text="HSK Level 4"
+			  Clicked="HSKLevel4_Clicked" />
+			<Button
+			  Text="HSK Level 5"
+			  Clicked="HSKLevel5_Clicked" />
+			<Button
+			  Text="HSK Level 6"
+			  Clicked="HSKLevel6_Clicked" />
 			
 			
 		</StackLayout>

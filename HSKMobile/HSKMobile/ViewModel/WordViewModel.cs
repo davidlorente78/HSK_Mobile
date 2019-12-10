@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using HSK;
 using HSKMobile.Model;
 
 namespace HSKMobile.ViewModel
@@ -9,7 +10,7 @@ namespace HSKMobile.ViewModel
 	{
 		public string Character { get; }
 
-		public WordViewModel(Word word)
+		public WordViewModel(Word_HSK word)
 		{
 			Character = word.Character;
 		}

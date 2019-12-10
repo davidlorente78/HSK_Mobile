@@ -153,6 +153,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HSK_DomainServices": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -161,6 +162,29 @@
         },
         "runtime": {
           "bin/placeholder/HSKMobile.dll": {}
+        }
+      },
+      "HSK_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        }
+      },
+      "HSK_DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HSK_Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
         }
       }
     },
@@ -316,6 +340,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HSK_DomainServices": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -324,6 +349,29 @@
         },
         "runtime": {
           "bin/placeholder/HSKMobile.dll": {}
+        }
+      },
+      "HSK_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        }
+      },
+      "HSK_DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HSK_Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
         }
       }
     },
@@ -479,6 +527,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HSK_DomainServices": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -487,6 +536,29 @@
         },
         "runtime": {
           "bin/placeholder/HSKMobile.dll": {}
+        }
+      },
+      "HSK_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        }
+      },
+      "HSK_DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HSK_Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
         }
       }
     },
@@ -642,6 +714,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HSK_DomainServices": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -650,6 +723,29 @@
         },
         "runtime": {
           "bin/placeholder/HSKMobile.dll": {}
+        }
+      },
+      "HSK_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        }
+      },
+      "HSK_DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HSK_Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
         }
       }
     }
@@ -995,6 +1091,16 @@
       "type": "project",
       "path": "../HSKMobile/HSKMobile.csproj",
       "msbuildProject": "../HSKMobile/HSKMobile.csproj"
+    },
+    "HSK_Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../HSK_Standard/HSK_Domain/HSK_Domain.csproj",
+      "msbuildProject": "../../../HSK_Standard/HSK_Domain/HSK_Domain.csproj"
+    },
+    "HSK_DomainServices/1.0.0": {
+      "type": "project",
+      "path": "../../../HSK_Standard/HSK_DomainServices/HSK_DomainServices.csproj",
+      "msbuildProject": "../../../HSK_Standard/HSK_DomainServices/HSK_DomainServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1011,11 +1117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.iOS\\HSKMobile.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.iOS\\HSKMobile.iOS.csproj",
       "projectName": "HSKMobile.iOS",
-      "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.iOS\\HSKMobile.iOS.csproj",
+      "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.iOS\\HSKMobile.iOS.csproj",
       "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.iOS\\obj\\",
+      "outputPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1036,8 +1142,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj": {
-              "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj"
+            "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj": {
+              "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj"
             }
           }
         }

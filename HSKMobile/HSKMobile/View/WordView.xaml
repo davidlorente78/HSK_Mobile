@@ -10,10 +10,13 @@
         <StackLayout>
 			
             <Label Text="{Binding Character}"
-				    FontSize="40"
+				    FontSize="Title"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-			
+			<Label Text="{Binding Description}"
+				    FontSize="Subtitle"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
 			
 			
         </StackLayout>

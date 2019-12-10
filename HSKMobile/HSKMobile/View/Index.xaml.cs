@@ -12,15 +12,41 @@ namespace HSKMobile.View
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Index : ContentPage
 	{
+		//https://docs.microsoft.com/es-es/xamarin/
 		public Index()
 		{
 			InitializeComponent();
 		}
 
-		void Handle_Clicked(object sender, System.EventArgs e)
+		void HSKLevel1_Clicked(object sender, System.EventArgs e)
 		{
-			//Back button is provided by the Navigation System
-			Navigation.PushAsync(new DetailWordView());
+			Navigation.PushAsync(new LevelListView(1));
 		}
+
+		void HSKLevel2_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelListView(2));
+		}
+		void HSKLevel3_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelListView(3));
+		}
+		void HSKLevel4_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelListView(4));
+		}
+		void HSKLevel5_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelListView(5));
+		}
+		void HSKLevel6_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelListView(6));
+		}
+
+
+
+
+
 	}
 }

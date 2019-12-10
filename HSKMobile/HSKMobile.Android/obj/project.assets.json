@@ -804,6 +804,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HSK_DomainServices": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.709249"
         },
@@ -812,6 +813,29 @@
         },
         "runtime": {
           "bin/placeholder/HSKMobile.dll": {}
+        }
+      },
+      "HSK_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_Domain.dll": {}
+        }
+      },
+      "HSK_DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HSK_Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HSK_DomainServices.dll": {}
         }
       }
     }
@@ -1900,6 +1924,16 @@
       "type": "project",
       "path": "../HSKMobile/HSKMobile.csproj",
       "msbuildProject": "../HSKMobile/HSKMobile.csproj"
+    },
+    "HSK_Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../HSK_Standard/HSK_Domain/HSK_Domain.csproj",
+      "msbuildProject": "../../../HSK_Standard/HSK_Domain/HSK_Domain.csproj"
+    },
+    "HSK_DomainServices/1.0.0": {
+      "type": "project",
+      "path": "../../../HSK_Standard/HSK_DomainServices/HSK_DomainServices.csproj",
+      "msbuildProject": "../../../HSK_Standard/HSK_DomainServices/HSK_DomainServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1917,11 +1951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.Android\\HSKMobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.Android\\HSKMobile.Android.csproj",
       "projectName": "HSKMobile.Android",
-      "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.Android\\HSKMobile.Android.csproj",
+      "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.Android\\HSKMobile.Android.csproj",
       "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1942,8 +1976,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj": {
-              "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj"
+            "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj": {
+              "projectPath": "C:\\Users\\dlorente\\Desktop\\HSK_Mobile\\HSKMobile\\HSKMobile\\HSKMobile.csproj"
             }
           }
         }
