@@ -16,8 +16,7 @@ namespace HSKMobile.View
 		public ObservableCollection<string> Items { get; set; }
 		LevelListViewModel viewModel;
 		public LevelListView(int i)
-		{
-			InitializeComponent();
+		{			
 			//TODO Prism
 			viewModel = new LevelListViewModel(i);
 			BindingContext = viewModel;			

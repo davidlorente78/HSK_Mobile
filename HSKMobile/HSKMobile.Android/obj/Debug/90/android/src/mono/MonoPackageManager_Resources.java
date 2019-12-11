@@ -3,6 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "HSKMobile.Android.dll" comes first in this list. */
 		"HSKMobile.Android.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Android.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
 		"HSKMobile.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

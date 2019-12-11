@@ -39,6 +39,10 @@
 			  Text="HSK Search"
 			  Clicked="HSKSearch_Clicked" />
 
+			<Button
+			  Text="HSK Carousel Level 1"
+			  Clicked="HSKLevel1Carousel_Clicked" />
+
 
 		</StackLayout>
     </ContentPage.Content>

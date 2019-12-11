@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "CarouselView.FormsPlugin.Fix/5.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -90,6 +99,28 @@
     }
   },
   "libraries": {
+    "CarouselView.FormsPlugin.Fix/5.2.1": {
+      "sha512": "qQmJfN60Ur4e2SXlC85KRure4S5mGlTbgQFWM5+J736Z5YamW4WHvaDkaurAigU0WZ6ghciQefBYB2HE/C3vJQ==",
+      "type": "package",
+      "path": "carouselview.formsplugin.fix/5.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carouselview.formsplugin.fix.5.2.1.nupkg.sha512",
+        "carouselview.formsplugin.fix.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -582,6 +613,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CarouselView.FormsPlugin.Fix >= 5.2.1",
       "HSK_DomainServices >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.2.0",
@@ -636,6 +668,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "CarouselView.FormsPlugin.Fix": {
+            "target": "Package",
+            "version": "[5.2.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

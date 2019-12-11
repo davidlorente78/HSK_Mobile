@@ -23,6 +23,11 @@ namespace HSKMobile.View
 			Navigation.PushAsync(new LevelListView(1));
 		}
 
+		void HSKLevel1Carousel_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new LevelCarouselView(1));
+		}
+
 		void HSKLevel2_Clicked(object sender, System.EventArgs e)
 		{
 			Navigation.PushAsync(new LevelListView(2));

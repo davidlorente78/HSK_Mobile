@@ -56,8 +56,18 @@ C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\HSKMobile.iOS\obj\iPhon
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.csproj.CopyComplete
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.exe
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.pdb
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.csprojAssemblyReference.cache
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\Images\Hua Shan.jpg
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\HSKMobile.iOS.exe
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\HSKMobile.iOS.pdb
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\CarouselView.FormsPlugin.iOS.dll
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
@@ -107,13 +117,6 @@ C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\HSKMobile.pdb
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\HSK_Domain.pdb
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\bin\iPhoneSimulator\Debug\HSK_DomainServices.pdb
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.csprojAssemblyReference.cache
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.csproj.CopyComplete
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile.iOS\obj\iPhoneSimulator\Debug\HSKMobile.iOS.exe

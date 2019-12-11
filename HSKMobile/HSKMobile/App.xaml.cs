@@ -9,8 +9,9 @@ namespace HSKMobile
 	{
 		public App()
 		{
-			InitializeComponent();
 
+			InitializeComponent();
+			
 			//MainPage = new WordView();
 
 			MainPage = new NavigationPage(new Index());
