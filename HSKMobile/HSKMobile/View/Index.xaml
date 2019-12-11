@@ -7,7 +7,8 @@
              x:Class="HSKMobile.View.Index">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Index!"
+			
+            <Label Text="Index!" 
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
 

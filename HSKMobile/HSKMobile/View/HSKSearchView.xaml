@@ -19,7 +19,7 @@
              x:Name="LevelList"
              VerticalOptions="FillAndExpand"
              HasUnevenRows="true"
-            ItemsSource="{Binding SearchResults}"
+             ItemsSource="{Binding SearchResults}"
              IsPullToRefreshEnabled="true"
              IsRefreshing="{Binding IsBusy, Mode=OneWay}"
              CachingStrategy="RecycleElement">
@@ -32,16 +32,20 @@
 							<!-- ... -->
 							<Label
                             Text="{Binding Character}"
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemTextStyle}"
-                            FontSize="40" />
+                            LineBreakMode="NoWrap"                           
+							FontFamily="FangSong"
+                            FontSize="60" />
 							<Label
                             Text="{Binding Pinyin}"
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemTextStyle}"
+                            LineBreakMode="NoWrap"                           
                             FontSize="20" />
 							<Label
                             Text="{Binding Description}"
+                            LineBreakMode="NoWrap"
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                            FontSize="13" />
+							<Label
+                            Text="{Binding Level}"
                             LineBreakMode="NoWrap"
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />

@@ -9,13 +9,16 @@
     <ContentPage.Content>
         <StackLayout>
 			
-            <Label Text="{Binding Character}"
-				    FontSize="Title"
+            <Label Text="{Binding Character} " 
+				FontSize="Title"
+				FontFamily="FangSong"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
+			
 			<Label Text="{Binding Description}"
-				    FontSize="Subtitle"
+				FontSize="Subtitle"
                 VerticalOptions="Center" 
+				FontFamily="FangSong"
                 HorizontalOptions="Center" />
 			
 			
