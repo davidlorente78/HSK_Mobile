@@ -35,4 +35,10 @@
   <ItemGroup>
     <Folder Include="Model\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="View\HSKSearchView.xaml.cs">
+      <DependentUpon>HSKSearchView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

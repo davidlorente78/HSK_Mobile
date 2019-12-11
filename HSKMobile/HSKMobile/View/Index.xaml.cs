@@ -49,6 +49,10 @@ namespace HSKMobile.View
 			Navigation.PushAsync(new DictionarySearch());
 		}
 
+		void HSKSearch_Clicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new HSKSearchView());
+		}
 
 
 	}

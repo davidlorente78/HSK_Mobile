@@ -27,6 +27,8 @@ C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\DetailWordView.xaml.g.cs
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\DictionarySearch.xaml.g.cs
+C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\HSKSearchView.xaml.g.cs
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\Index.xaml.g.cs
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\LevelListView.xaml.g.cs
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\WordView.xaml.g.cs
@@ -37,4 +39,3 @@ C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\HSKMobile.dll
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\ref\HSKMobile.dll
 C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\HSKMobile.pdb
-C:\Users\dlorente\Desktop\HSK_Mobile\HSKMobile\HSKMobile\obj\Debug\netstandard2.0\View\DictionarySearch.xaml.g.cs

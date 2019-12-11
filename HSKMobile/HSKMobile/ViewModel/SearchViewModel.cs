@@ -22,6 +22,7 @@ namespace HSKMobile.ViewModel
 
 		public ICommand PerformSearch => new Command<string>((string query) =>
 		{
+			SearchResults.Clear();
 			DictionaryService dictionaryService = new DictionaryService();
 			var array = dictionaryService.GetWordsWhereDescriptionContains(query);
 			//TODO
