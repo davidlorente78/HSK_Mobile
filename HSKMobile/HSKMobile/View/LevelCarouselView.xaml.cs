@@ -29,10 +29,16 @@ namespace HSKMobile.View
 
 			await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
 
-			string action = await DisplayActionSheet("ActionSheet: Send to?", "Cancel", null, "Email", "Twitter", "Facebook");
+			string action = await DisplayActionSheet("ActionSheet: Send to?", "Cancel", null, "See Phrases", "Search in Dictionary", "Add to Favorites");
 
 			//Deselect Item
 			((ListView)sender).SelectedItem = null;
+		}
+
+		void Phrases_Clicked(object sender, System.EventArgs e)
+		{
+
+			Navigation.PushAsync(new PhrasesListView("好"));
 		}
 	}
 }

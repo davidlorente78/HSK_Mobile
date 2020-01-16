@@ -26,7 +26,11 @@
 							</StackLayout>
 
 							<Label VerticalOptions="EndAndExpand" Margin="0,0,0,40" FontSize="12" HorizontalTextAlignment="Center" FontFamily="Montserrat" TextColor="#EEE" Text="SWIPE TO CONTINUE" />
-						</StackLayout>
+								<Button
+								  Text="Go to Phrases"
+								  Clicked="Phrases_Clicked" />	
+
+							</StackLayout>
 					</Grid>
 				</DataTemplate>
 			</carousel:CarouselViewControl.ItemTemplate>
